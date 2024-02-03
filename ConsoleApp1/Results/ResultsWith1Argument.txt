@@ -1,0 +1,6 @@
+| Method               | Mean      | Error    | StdDev    | Median    | Gen0   | Gen1   | Allocated |
+|--------------------- |----------:|---------:|----------:|----------:|-------:|-------:|----------:|
+| StringConcatenation1 |  15.25 ns | 0.359 ns |  0.467 ns |  15.35 ns | 0.0115 | 0.0000 |      48 B |
+| StringFormat1        |  55.64 ns | 0.484 ns |  0.429 ns |  55.70 ns | 0.0172 |      - |      72 B |
+| StringInterpolation1 |  40.05 ns | 0.535 ns |  0.501 ns |  40.13 ns | 0.0114 | 0.0001 |      48 B |
+| FormattableString1   | 107.54 ns | 4.173 ns | 11.838 ns | 103.76 ns | 0.0343 | 0.0001 |     144 B |
